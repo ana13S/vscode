@@ -201,7 +201,7 @@ export class RTVLogger implements IRTVLogger {
 	}
 
 	public showOutputBox(): void {
-		this.log(`outputBox.show`);
+		this.log(`outputBox.show  (Client pressed Run button)`);
 	}
 
 	public hideOutputBox(): void {
